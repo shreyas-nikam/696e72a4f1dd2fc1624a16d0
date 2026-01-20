@@ -559,7 +559,7 @@ def initialize_retriever(chroma_path: str = "/tmp/chroma_db", clean_existing: bo
             print(f"Cleaned up existing ChromaDB directory: {chroma_path}")
         except Exception as e:
             print(f"Warning: Could not clean ChromaDB directory: {e}")
-    
+
     # Ensure directory exists with proper permissions
     os.makedirs(chroma_path, mode=0o755, exist_ok=True)
 
