@@ -1,2 +1,6 @@
 
-streamlit==1.24.0
+streamlit
+openai
+rank-bm25
+chromadb
+numpy
